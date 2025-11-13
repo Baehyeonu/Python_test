@@ -1,0 +1,108 @@
+[
+  {
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+      "email": "test@example.com",
+      "password": "pbkdf2_sha256$720000$testpasswordhash",
+      "name": "Test User",
+      "provider": "local",
+      "provider_id": null,
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "name": "클래식 티셔츠",
+      "description": "편안하고 스타일리시한 클래식 티셔츠입니다.",
+      "price": "29000.00",
+      "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "stock": 100,
+      "category": "clothing",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "name": "모던 진",
+      "description": "고품질 모던 핏 청바지입니다.",
+      "price": "89000.00",
+      "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+      "stock": 50,
+      "category": "clothing",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "name": "러닝 슈즈",
+      "description": "가볍고 편안한 러닝화입니다.",
+      "price": "129000.00",
+      "image_url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400",
+      "stock": 75,
+      "category": "shoes",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "name": "가죽 지갑",
+      "description": "고급 가죽으로 만든 지갑입니다.",
+      "price": "59000.00",
+      "image_url": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400",
+      "stock": 30,
+      "category": "accessories",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "name": "스마트 워치",
+      "description": "최신 기능을 갖춘 스마트 워치입니다.",
+      "price": "199000.00",
+      "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "stock": 25,
+      "category": "accessories",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "name": "캐주얼 스니커즈",
+      "description": "일상에서 편안하게 신을 수 있는 스니커즈입니다.",
+      "price": "79000.00",
+      "image_url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400",
+      "stock": 60,
+      "category": "shoes",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
+
