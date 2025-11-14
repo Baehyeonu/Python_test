@@ -1,5 +1,5 @@
 # 1. 사용할 기본 이미지(Base Image) 정의
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # 2. 컨테이너 내부의 작업 디렉토리 설정
 WORKDIR /app
